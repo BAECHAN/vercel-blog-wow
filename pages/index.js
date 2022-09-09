@@ -5,7 +5,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      allPostsData: json.allPostsData,
+      allPostsData,
     },
   };
 }
